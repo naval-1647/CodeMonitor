@@ -1,3 +1,16 @@
+# Documentation and Setup Files
+COMPLETION_CHECKLIST.md
+FEATURES.md
+PROJECT_STRUCTURE.md
+PROJECT_SUMMARY.md
+QUICK_REFERENCE.md
+SETUP_GUIDE.md
+TROUBLESHOOTING.md
+install.bat
+start-all.bat
+start-backend.bat
+start-frontend.bat
+
 # Python
 __pycache__/
 *.py[cod]
