@@ -45,6 +45,9 @@ backend/app/config.py
 *.swo
 *~
 .DS_Store
+*.iml
+*.sublime-project
+*.sublime-workspace
 
 # Logs
 *.log
@@ -52,31 +55,56 @@ logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
 
 # Node.js
 node_modules/
 .npm
 .eslintcache
+package-lock.json
+yarn.lock
 
 # Frontend build
 frontend/dist/
 frontend/build/
+frontend/.next/
+frontend/out/
 
 # Database
 *.db
 *.sqlite
 *.sqlite3
+*.sqlite-journal
 
 # OS
 Thumbs.db
 .DS_Store
+.AppleDouble
+.LSOverride
+*.cab
+*.msi
 
 # Pytest
 .pytest_cache/
 .coverage
 htmlcov/
+.tox/
+.hypothesis/
 
 # MyPy
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# Type checking
+.pyre/
+
+# IDE specific
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# OS generated files
+Desktop.ini
+*.lnk
